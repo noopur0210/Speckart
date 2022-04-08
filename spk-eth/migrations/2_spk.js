@@ -3,9 +3,9 @@ const SpecToken = artifacts.require('SpecToken')
 const Dispute = artifacts.require('DisputeContract')
 let SpecTokenInstance, DisputeInstance
 
-const admins = ['0x0E2A1227DA6f21A14b5148137dd584681145C99B',
-	'0x44fdb5700B29a4390DE5e2826Ff41B0F2D912ad7',
-	'0x7300b4689dc8fFe9152E40ABb95f7d4800C4426a']
+const admins = ['0xb685645C8C9aDC21179100A62a11836aFE8937A8',
+	'0x7B82ec94064E7FDF44322D5Fd869F45688d055F6',
+	'0xf003d5575dc35Be27dF8865c7Ca30644958D0ed8']
 
 module.exports = async function (deployer) {
 	deployer.deploy(SpecToken).then(instance => {
